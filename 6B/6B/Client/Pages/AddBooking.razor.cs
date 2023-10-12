@@ -11,12 +11,13 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 using Microsoft.JSInterop;
-using _6B.Client;
-using _6B.Client.Shared;
 using Domain.Entities;
 using Blazored.FluentValidation;
+using static System.Net.WebRequestMethods;
+using System.Text.Json;
+using System.Text;
 
-namespace _6B.Client.Pages
+namespace Client.Pages
 {
     public partial class AddBooking
     {
@@ -25,13 +26,21 @@ namespace _6B.Client.Pages
         private EditContext? editContext;
         private FluentValidationValidator? _fluentValidationValidator;
 
+        private string message = "";
+
+
+        protected override async Task OnInitializedAsync()
+        {
+            editContext = new(NewBooking);
+
+
+        }
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
 
             if (firstRender)
             {
 
-                editContext = new (NewBooking);
 
 
             }
@@ -49,9 +58,37 @@ namespace _6B.Client.Pages
 
         private async Task Submit()
         {
+            // valdiate form
+            // if valid then post to the server
+            // catch errors using serilog so we have a record of anything thats gone wrong
+
+
             if (isFormValid())
             {
 
+                // show progress bar - find component for this requirement
+
+
+                var request = new HttpRequestMessage(HttpMethod.Post, "Bookings/AddBooking");
+
+                // set request body
+                request.Content = new StringContent(JsonSerializer.Serialize(NewBooking), Encoding.UTF8, "application/json");
+
+                HttpResponseMessage response =  await httpClient.SendAsync(request);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    message = "Successfully sent booking";
+                    NewBooking = new Booking();
+                    // show success message 
+                    // reset form
+                }
+                else
+                {
+                    message = "Error processing your request. Please try again";
+
+                    // show error message and log it
+                }
             }
 
         }

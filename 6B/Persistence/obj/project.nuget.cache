@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bOK9uXx5lrplIVY/kWiSSiovSzQ50mdtLjNEf3je8Z7o/8WYKKo/4/bekdamKfepv7voAS1OZ7a3aipAvMEp4Q==",
+  "dgSpecHash": "YcprP2+SqCjbmqODUS3AFglA547S5jURxa/NOiSzZMt+7TOXmXvVjVwYpTwan2YgZ4x3Dh0MIzj+Wm3xrgMO7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
@@ -66,7 +66,10 @@
     "C:\\Users\\naailm2k\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\naailm2k\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\naailm2k\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512"
   ],
   "logs": [
     {

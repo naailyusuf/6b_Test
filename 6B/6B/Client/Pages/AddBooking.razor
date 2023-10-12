@@ -1,7 +1,20 @@
-﻿@using Blazored.FluentValidation
+﻿@page "/AddBooking"
 
 
-<EditForm EditContext="@editContext" Model="@NewBooking" OnSubmit="@Submit">
+@using Blazored.FluentValidation
+
+@inject HttpClient httpClient
+
+
+@* Find a framework or add styling for profession feel. 
+    Could use mudblazor/ syncfusion blazor / blazorbootstrap  *@
+
+
+<h2>@message</h2>
+
+<EditForm EditContext="@editContext" OnSubmit="@Submit">
+    @* Fluent validation for extending validation capabilities like conditional validation *@
+
     <FluentValidationValidator @ref="_fluentValidationValidator" DisableAssemblyScanning="@false" />
     <ValidationSummary />
 

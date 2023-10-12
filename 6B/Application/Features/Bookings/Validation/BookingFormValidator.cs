@@ -21,19 +21,21 @@ namespace Application.Features.Bookings.Validation
                     .NotEmpty().WithMessage("You must enter your name");
 
             RuleFor(p => p.BookingDate)
-                   .NotNull().WithMessage("You must enter your booking date");
+                   .NotEmpty().WithMessage("You must enter your booking date");
 
             RuleFor(p => p.Flexibility)
-                  .NotNull().WithMessage("You must select flexibility");
+                  .NotEmpty().WithMessage("You must select flexibility");
 
             RuleFor(p => p.VehicleSize)
-                 .NotNull().WithMessage("You must select vehicle size");
+                 .NotEmpty().WithMessage("You must select vehicle size");
 
             RuleFor(p => p.ContactNumber)
-               .NotNull().WithMessage("You must enter contact number");
+               .NotEmpty().WithMessage("You must enter contact number");
 
             RuleFor(p => p.EmailAddress)
-               .NotNull().WithMessage("You must enter email address");
+               .NotEmpty().WithMessage("You must enter email address")
+               .EmailAddress().WithMessage("Enter a valid email address");
+               ;
 
         }
         }

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Bvux+/upWPQiBOBy3WEIbcQq0scKdt5nDVTCNodLrRATEAdI6xScNJ6svBP/pyuFo0L1qFz9a5WLbXIxIVcwPw==",
+  "dgSpecHash": "EUn06JM0cN7aBQGwBtguNfV5EGXqaIZbs0M5LKYCnzAL6saLbE8HSvic6meSRvSGPrHv9ACjmr5YFq8WQlK2zQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\naailm2k\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+    "C:\\Users\\naailm2k\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512"
   ],
   "logs": []
 }

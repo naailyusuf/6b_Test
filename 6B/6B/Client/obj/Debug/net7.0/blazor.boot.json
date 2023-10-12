@@ -4,7 +4,7 @@
   "debugBuild": true,
   "debugLevel": -1,
   "diagnosticTracing": null,
-  "entryAssembly": "6B.Client",
+  "entryAssembly": "Client",
   "environmentVariables": null,
   "extensions": {
     "blazor": { }
@@ -14,6 +14,8 @@
   "pthreadPoolSize": null,
   "resources": {
     "assembly": {
+      "Blazored.FluentValidation.dll": "sha256-pmAnzGHbzjJkqlA1\/MjJe3bE8oA0PM8Cld1vLp+68sI=",
+      "FluentValidation.dll": "sha256-AWdFkmoHUFhLmUvvrvy+I5C1URXsXIhN4NdHfhU6ydY=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-+79HPC+snrhJjzOJbwBnWtkWOY6jdopnEnle7ZiRr7Y=",
       "Microsoft.AspNetCore.Components.dll": "sha256-Ai5PTdfbdzeheOh7Ly3Uoqa3f175oOxvfu2QfxDZGso=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-IcQfwp7uOUAjEcK6s\/W097tVi886KFG0KQicOqtu2SU=",
@@ -205,8 +207,10 @@
       "mscorlib.dll": "sha256-Xo3wdLenBZ41X73hGjkWTbEQZDKcQsnPFtlkePUxLY0=",
       "netstandard.dll": "sha256-qjqaAEP3hdLnU\/TnoCd8HaSa+0ruV1TpdaB2GUujGMw=",
       "System.Private.CoreLib.dll": "sha256-\/7uQ+eNo9u3H1mpgMko4D3tKZHeGRfsRjna0Dqsu62k=",
-      "6B.Shared.dll": "sha256-Gt5ZL3SsTqnhh4NDY4DVZHhlq5OVhBY+Gsy0n3nTCFY=",
-      "6B.Client.dll": "sha256-XJUEvJa+dEJZtPb0rF4DVTfdgjXk88hfkd1xynfcqxM="
+      "Application.dll": "sha256-q6lYVZqQt+4fu4rOgQCO760NqSVP6E5naoq8XA6C7e8=",
+      "Domain.dll": "sha256-3slc7yepS6CtYWTzQAzbcCuDPYIDv06QVYcnIQGDEps=",
+      "Shared.dll": "sha256-p6zDCCtqfMy3J0coekAkoiLWCCVnyNxWBO5+7udU4Dg=",
+      "Client.dll": "sha256-yswuS1RD4jlDDvjaz66V8uJvGvEHFQkESrsaNKg1jeo="
     },
     "extensions": null,
     "hash": null,
@@ -214,8 +218,10 @@
     "libraryInitializers": null,
     "libraryStartupModules": null,
     "pdb": {
-      "6B.Shared.pdb": "sha256-cXI+Mq327BtK2F1mLUr\/KXqYnJbOsCxV5LWhnUpxZec=",
-      "6B.Client.pdb": "sha256-\/081I4cYLtNdRxAfGsHwFH3BCSZwUyQZADFfMXvj1v8="
+      "Application.pdb": "sha256-99oqC6f7M4v5k378JON\/U3MW\/URz1RqVqJRv\/JxqczI=",
+      "Domain.pdb": "sha256-MLQcn1NJKi4Du5QXAgErRpKSUwGEF2ys4AJbG7zl9uA=",
+      "Shared.pdb": "sha256-9h2SPq+Oz8J5p9FiGp9YL8MRc23w3WRvdwy2kKEYAE4=",
+      "Client.pdb": "sha256-V+9ZtWCmbZ56yM46Jrm9rOxhXg87ooUV4zryWzMAoJU="
     },
     "remoteSources": null,
     "runtime": {

@@ -5,6 +5,7 @@ C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Domain\obj\Debug\net7.0\Dom
 C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
 C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
 C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Domain\obj\Debug\net7.0\Domain.sourcelink.json
 C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Domain\obj\Debug\net7.0\Domain.dll
 C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Domain\obj\Debug\net7.0\Domain.pdb

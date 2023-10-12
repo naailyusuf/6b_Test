@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Server\\6B.Server.csproj": {}
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\server\\6B.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\6B.Client.csproj": {
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Client\\6B.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\6B.Client.csproj",
+        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Client\\6B.Client.csproj",
         "projectName": "6B.Client",
-        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\6B.Client.csproj",
+        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Client\\6B.Client.csproj",
         "packagesPath": "C:\\Users\\naailm2k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\obj\\",
+        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\naailm2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj": {
-                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj"
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Shared\\6B.Shared.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Shared\\6B.Shared.csproj"
               },
-              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj"
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Application\\Application.csproj"
+              },
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\Domain.csproj"
               }
             }
           }
@@ -41,6 +44,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -59,6 +65,24 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.NET.ILLink.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.7.23375.6, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -72,12 +96,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.10, 7.0.10]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -86,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Server\\6B.Server.csproj": {
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\server\\6B.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Server\\6B.Server.csproj",
+        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\server\\6B.Server.csproj",
         "projectName": "6B.Server",
-        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Server\\6B.Server.csproj",
+        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\server\\6B.Server.csproj",
         "packagesPath": "C:\\Users\\naailm2k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Server\\obj\\",
+        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\naailm2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -110,14 +152,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\6B.Client.csproj": {
-                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\6B.Client.csproj"
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Client\\6B.Client.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Client\\6B.Client.csproj"
               },
-              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj": {
-                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj"
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Shared\\6B.Shared.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Shared\\6B.Shared.csproj"
               },
-              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Persistence\\Persistence.csproj"
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -126,6 +168,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -158,6 +203,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -166,18 +229,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj": {
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Shared\\6B.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Shared\\6B.Shared.csproj",
         "projectName": "6B.Shared",
-        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj",
+        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Shared\\6B.Shared.csproj",
         "packagesPath": "C:\\Users\\naailm2k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\6b\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\naailm2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -200,6 +263,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -216,23 +282,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Application\\Application.csproj": {
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\naailm2k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Application\\obj\\",
+        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\naailm2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -249,8 +329,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj"
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\Domain.csproj"
               }
             }
           }
@@ -259,6 +339,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -281,23 +364,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj": {
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\naailm2k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\naailm2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -320,6 +417,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -336,23 +436,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\naailm2k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\naailm2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -369,11 +483,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Application\\Application.csproj"
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Application\\Application.csproj"
               },
-              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj"
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6b\\Domain\\Domain.csproj"
               }
             }
           }
@@ -382,6 +496,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -416,12 +533,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     }

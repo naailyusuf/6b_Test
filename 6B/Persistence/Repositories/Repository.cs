@@ -29,6 +29,9 @@ namespace Persistence.Repositories
         {
             // add new booking to entities and return whether succesfull
 
+            _entities.Bookings.Add(newBooking);
+            _entities.SaveChanges();
+
             return false;
         }
     }

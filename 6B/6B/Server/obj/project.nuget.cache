@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R5pcogagRNgyMXRHt5J+gaKuczU4khgQaHHX0PQLcLsZxvYePB3U3XXDdzvpGozLOf37smeiqHirEkcRqM5WCA==",
+  "dgSpecHash": "nyRbBLrHpH6pOON/Mk12o+sZS9FQXWz8vfQJ8YJPl9/eNDilBAYaj5gFD/t1GatTDhYO8dTVlebB2MjU8WWAHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Server\\6B.Server.csproj",
+  "projectFilePath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6b\\server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\naailm2k\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -90,7 +90,11 @@
     "C:\\Users\\naailm2k\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\naailm2k\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\naailm2k\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.9\\microsoft.netcore.app.host.win-x64.7.0.9.nupkg.sha512"
   ],
   "logs": [
     {
