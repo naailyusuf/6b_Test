@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\6B.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\6B.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\6B.Client.csproj",
+        "projectName": "6B.Client",
+        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\6B.Client.csproj",
+        "packagesPath": "C:\\Users\\naailm2k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\naailm2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj"
+              },
+              "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Blazored.FluentValidation": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj",
+        "projectName": "6B.Shared",
+        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\6B.Shared.csproj",
+        "packagesPath": "C:\\Users\\naailm2k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\6B\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\naailm2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\naailm2k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\naailm2k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

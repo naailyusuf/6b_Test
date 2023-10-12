@@ -1,0 +1,11 @@
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\bin\Debug\net7.0\6B.Shared.deps.json
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\bin\Debug\net7.0\6B.Shared.dll
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\bin\Debug\net7.0\6B.Shared.pdb
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\obj\Debug\net7.0\6B.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\obj\Debug\net7.0\6B.Shared.AssemblyInfoInputs.cache
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\obj\Debug\net7.0\6B.Shared.AssemblyInfo.cs
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\obj\Debug\net7.0\6B.Shared.csproj.CoreCompileInputs.cache
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\obj\Debug\net7.0\6B.Shared.dll
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\obj\Debug\net7.0\refint\6B.Shared.dll
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\obj\Debug\net7.0\6B.Shared.pdb
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\6B\Shared\obj\Debug\net7.0\ref\6B.Shared.dll

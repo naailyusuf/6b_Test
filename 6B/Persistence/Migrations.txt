@@ -1,0 +1,21 @@
+dotnet ef database update --startup-project  ../6B/Server/6B.Server.csproj
+
+
+dotnet ef migrations add MigrationName --startup-project  ../6B/Server/6B.Server.csproj
+
+
+
+Generates script from new database to latest
+dotnet ef migrations script  -o 'script.sql'  --startup-project  ../6B/Server/6B.Server.csproj
+
+
+
+dotnet ef migrations script PREVIOUS_MIGRATION NEW_MIGRATION -o 'script.sql'  --startup-project  ../6B/Server/6B.Server.csproj
+
+
+
+-- Remove migration
+
+
+
+dotnet ef migrations remove  --startup-project  ../6B/Server/6B.Server.csproj

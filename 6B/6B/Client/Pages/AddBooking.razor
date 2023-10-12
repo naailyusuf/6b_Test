@@ -1,0 +1,59 @@
+﻿@using Blazored.FluentValidation
+
+
+<EditForm Model="@NewBooking" OnSubmit="@Submit">
+    <FluentValidationValidator />
+    <ValidationSummary />
+
+    <p>
+        <label>Name: </label>
+        <InputText @bind-Value="@NewBooking.Name" />
+    </p>
+
+    <p>
+        <label>Booking Date: </label>
+        <InputDate @bind-Value="@NewBooking.BookingDate" />
+    </p>
+
+    <p>
+        <label>Flexibility: </label>
+
+        <InputSelect @bind-Value="@NewBooking.Flexibility">
+            @* Replace with database driven list *@
+            <option value=""></option>
+
+            <option value="1">1 Days</option>
+            <option value="2">2 Days</option>
+            <option value="3">3 Days</option>
+
+        </InputSelect>
+
+    </p>
+
+    <p>
+        <label>Contact Number: </label>
+
+        <InputText @bind-Value="@NewBooking.ContactNumber">
+
+        </InputText>
+
+    </p>
+
+    <p>
+        <label>Contact Number: </label>
+
+        <InputText @bind-Value="@NewBooking.ContactNumber">
+        </InputText>
+
+    </p>
+
+    <p>
+        <label>Email Address: </label>
+
+        <InputText @bind-Value="@NewBooking.EmailAddress">
+        </InputText>
+
+    </p>
+
+    <button type="submit">Save</button>
+</EditForm>

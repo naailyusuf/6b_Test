@@ -1,0 +1,15 @@
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\bin\Debug\net7.0\Persistence.deps.json
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\bin\Debug\net7.0\Persistence.dll
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\bin\Debug\net7.0\Persistence.pdb
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\bin\Debug\net7.0\Domain.dll
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\bin\Debug\net7.0\Domain.pdb
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\Persistence.dll
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\Persistence.pdb
+C:\Users\naailm2k\source\repos\naailyusuf\6b_Test\6B\Persistence\obj\Debug\net7.0\ref\Persistence.dll
