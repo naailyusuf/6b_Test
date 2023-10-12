@@ -14,6 +14,7 @@ using Microsoft.JSInterop;
 using _6B.Client;
 using _6B.Client.Shared;
 using Domain.Entities;
+using Blazored.FluentValidation;
 
 namespace _6B.Client.Pages
 {
@@ -21,9 +22,37 @@ namespace _6B.Client.Pages
     {
         private Booking NewBooking = new Booking();
 
+        private EditContext? editContext;
+        private FluentValidationValidator? _fluentValidationValidator;
+
+        protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+
+            if (firstRender)
+            {
+
+                editContext = new (NewBooking);
+
+
+            }
+
+
+
+
+        }
+
+        private bool isFormValid()
+        {
+            return _fluentValidationValidator.Validate(options => options.IncludeAllRuleSets());
+        }
+
 
         private async Task Submit()
         {
+            if (isFormValid())
+            {
+
+            }
 
         }
 

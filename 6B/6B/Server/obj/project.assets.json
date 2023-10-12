@@ -1543,6 +1543,20 @@
           "bin/placeholder/6B.Shared.dll": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "FluentValidation": "11.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1557,6 +1571,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Application": "1.0.0",
           "Domain": "1.0.0",
           "Microsoft.AspNet.Identity.EntityFramework": "2.2.4",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.12",
@@ -3949,6 +3964,11 @@
       "type": "project",
       "path": "../Shared/6B.Shared.csproj",
       "msbuildProject": "../Shared/6B.Shared.csproj"
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../../Application/Application.csproj",
+      "msbuildProject": "../../Application/Application.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",

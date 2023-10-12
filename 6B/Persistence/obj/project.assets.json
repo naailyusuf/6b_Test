@@ -65,6 +65,19 @@
           }
         }
       },
+      "FluentValidation/11.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNet.Identity.Core/2.2.4": {
         "type": "package",
         "compile": {
@@ -1092,6 +1105,20 @@
           }
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Domain": "1.0.0",
+          "FluentValidation": "11.4.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1171,6 +1198,29 @@
         "tools/init.ps1",
         "tools/install.ps1",
         "tools/migrate.exe"
+      ]
+    },
+    "FluentValidation/11.4.0": {
+      "sha512": "WZJyrNf4suiaI6avVG32W9kmBLC3+V5rDTcLeRJjeU4tDmTyDIOz1459DzCKppXs34YpZg9rCUzDY3M4XxG7Ug==",
+      "type": "package",
+      "path": "fluentvalidation/11.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.4.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Microsoft.AspNet.Identity.Core/2.2.4": {
@@ -2898,6 +2948,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -2906,6 +2961,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Application >= 1.0.0",
       "Domain >= 1.0.0",
       "Microsoft.AspNet.Identity.EntityFramework >= 2.2.4",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.12",
@@ -2940,6 +2996,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Application\\Application.csproj"
+            },
             "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Domain\\Domain.csproj"
             }

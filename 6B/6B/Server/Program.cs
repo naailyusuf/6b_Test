@@ -1,8 +1,12 @@
+using Application.Features.Bookings.Interfaces;
+using Application.Features.Bookings.Services;
+using Application.Features.Bookings.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 using Persistence.Identity;
+using Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +36,10 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 builder.Services.Configure<DataProtectionTokenProviderOptions>(o =>
        o.TokenLifespan = TimeSpan.FromDays(5));
+
+
+builder.Services.AddTransient<IRepository, Repository>();
+builder.Services.AddScoped<IBookingService, BookingService>();
 
 builder.Services.AddHttpClient();
 

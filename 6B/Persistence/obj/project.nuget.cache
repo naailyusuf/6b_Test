@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "wEoX5GIFZjnztiLQws5kOcb1qNxnooggASC6BT5Y922QXF0jPiNv4mUIkVyvhB6G2X021ZjonDSz6dHMDgjUgg==",
+  "dgSpecHash": "bOK9uXx5lrplIVY/kWiSSiovSzQ50mdtLjNEf3je8Z7o/8WYKKo/4/bekdamKfepv7voAS1OZ7a3aipAvMEp4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\naailm2k\\source\\repos\\naailyusuf\\6b_Test\\6B\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\naailm2k\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\entityframework\\6.1.0\\entityframework.6.1.0.nupkg.sha512",
+    "C:\\Users\\naailm2k\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.4\\microsoft.aspnet.identity.core.2.2.4.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.4\\microsoft.aspnet.identity.entityframework.2.2.4.nupkg.sha512",
     "C:\\Users\\naailm2k\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.12\\microsoft.aspnetcore.cryptography.internal.7.0.12.nupkg.sha512",

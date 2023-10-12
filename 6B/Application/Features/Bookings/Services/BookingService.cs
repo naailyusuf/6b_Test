@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Bookings.Services
 {
-    public class BookingsService : IBookingService
+    public class BookingService : IBookingService
     {
-        public BookingsService() { }
+        public BookingService() { }
 
         public bool AddBooking(Booking booking)
         {
